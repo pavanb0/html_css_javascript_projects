@@ -1,0 +1,95 @@
+body{
+    accent-color: rgb(162, 236, 77);
+    background-image: url("images/space-shuttle-987.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    /*display: flex;
+    /*background-repeat:   no-repeat;
+    /*background-position: center center;*/  
+    -webkit-animation: imgFade 10s;
+    animation: imgFade 10s;
+
+}
+/*@keyframes imgFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}*/
+/*
+@keyframes imgFade
+{
+    from 
+    {
+        background:  url("images/79782_1653534695.webp");
+    }
+    to 
+    {
+        background: url("images/space-shuttle-987.jpg";)
+    }
+}
+
+
+@-webkit-keyframes imgFade
+{
+    from 
+    {
+        background: url("images/79782_1653534695.webp");
+    }
+    to 
+    {
+        background: url("images/space-shuttle-987.jpg") 0 -120px;
+    }
+}
+*/
+
+
+.main input{
+    /*color-scheme: blink;*/
+    position: relative;
+    overflow: fixed;
+    color: rgb(0, 90, 83);
+    height: 45px;
+    width: 22cm;
+    border-radius: 50px;
+    border: 2px solid rgb(42, 238, 222);
+    background-color: transparent;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-weight: bold;
+    /*opacity: 0.9;*/
+}
+h1{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(6, 52, 104);
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 1cm;
+}
+.main input:focus{
+    outline:none;
+}
+.main input:hover{
+    border: 2px solid rgb(26, 212, 19);
+    pointer-events: stroke;
+    /*cursor: pointer;*/
+}
+.main{
+/*
+    margin-top: 4cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+*/
+    margin-right: 6cm;
+    position: fixed;
+    right: calc(50% - 1px);
+    top: 80%;
+    width: 8em;
+    margin-top: -2.5em;
+    
+}

@@ -1,0 +1,23 @@
+table, th, td {
+    height: 3cm;
+    width: 8cm;
+    margin-top: 80px;
+    align-items: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: rgb(12, 131, 131);
+
+  }
+
+.td3:hover{
+    background-color: rgb(194, 241, 156);
+}
+.td2:hover{
+    background-color: rgb(29, 29, 12);
+}
+.td1:hover{
+    background-color: rgb(240, 241, 156);
+}
+
+    
+

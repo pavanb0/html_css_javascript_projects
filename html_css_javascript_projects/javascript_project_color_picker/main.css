@@ -1,0 +1,36 @@
+.main-color{
+    margin-top: 0%;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5cm;
+    align-content: center;
+    background-color: rgba(31, 221, 104, 0.849);
+    border: 2px;
+    border-color: rgb(222, 222, 245);
+    border-style: groove;
+    border-radius: 20px;
+    margin-bottom: 50%;
+}
+.new{
+    color: rgb(24, 143, 143);
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    align-items: center;
+    align-content: center;
+    background-color: azure;
+}
+.new::shadow{
+    color: blueviolet;
+}
+.new:hover{
+    color: yellow;
+    background-color: violet;
+    cursor: pointer;
+}
+.colorpic{
+
+    color: rgb(255, 255, 255);
+}
